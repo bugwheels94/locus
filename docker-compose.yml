@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  code:
+    volumes:
+      - ./:/usr/code
+      - /usr/code/node_modules
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: tail -F anything
+    ports:
+      - 3000:3000

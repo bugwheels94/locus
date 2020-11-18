@@ -1,0 +1,20 @@
+.results {
+  max-height: 300px;
+  max-width: 200px;
+  border: solid 1px #ccc;
+  overflow: auto;
+}
+.result {
+  padding: 5px;
+  border: solid 1px #ccc;
+}
+.result-active {
+  background: #FFFEDC;
+  border: solid 1px #ccc;
+}
+.result_id {
+  text-transform: uppercase;
+}
+.result_name {
+  font-style: italic;
+}
